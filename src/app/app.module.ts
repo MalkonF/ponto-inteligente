@@ -6,6 +6,7 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { AppComponent } from './app.component';
 import { LoginModule } from './autenticacao';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,6 +15,8 @@ import { LoginModule } from './autenticacao';
     BrowserAnimationsModule,
     MatButtonModule,
     LoginModule,
+
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
