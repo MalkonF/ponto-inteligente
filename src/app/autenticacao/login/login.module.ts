@@ -15,6 +15,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { LoginComponent, LogarComponent } from './components';
 
+import { LoginService } from './services';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -30,6 +32,6 @@ import { LoginComponent, LogarComponent } from './components';
     FlexLayoutModule,
   ],
   declarations: [LoginComponent, LogarComponent],
-  providers: [],
+  providers: [LoginService],
 })
 export class LoginModule {}
