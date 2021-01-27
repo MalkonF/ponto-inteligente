@@ -29,7 +29,7 @@ import { SharedModule } from '../../shared/shared.module';
     MatTooltipModule,
     MatIconModule,
     MatSnackBarModule,
-    SharedModule
+    SharedModule,
   ],
   declarations: [CadastrarPjComponent, CadastroPjComponent],
 })
