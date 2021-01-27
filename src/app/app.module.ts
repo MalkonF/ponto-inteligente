@@ -11,6 +11,7 @@ import {
   CadastroPjModule,
   CadastroPjRoutingModule,
   CadastroPfModule,
+  CadastroPfRoutingModule,
 } from './autenticacao';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -25,6 +26,8 @@ import { AppRoutingModule } from './app-routing.module';
     CadastroPjModule,
     CadastroPjRoutingModule,
     CadastroPfModule,
+    CadastroPfRoutingModule,
+
     AppRoutingModule,
   ],
   providers: [],
